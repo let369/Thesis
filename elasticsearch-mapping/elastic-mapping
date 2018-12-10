@@ -1,0 +1,54 @@
+{
+  "mappings": {
+    "logs": {
+      "properties": {
+        "country": {
+          "type": "keyword"
+        },
+        "city": {
+          "type": "keyword"
+        },
+        "friends_count": {
+          "type": "long"
+        },
+        "timezone": {
+          "type": "keyword"
+        },
+        "retweet_count": {
+          "type": "long"
+        },
+        "screen_name": {
+          "type": "keyword"
+        },
+        "text": {
+          "type": "text"
+        },
+        "lang": {
+          "type": "keyword"
+        },
+        "total_posts": {
+          "type": "long"
+        },
+        "followers": {
+          "type": "long"
+        },
+        "location": {
+          "type": "keyword"
+        },
+        "user_description": {
+          "type": "text"
+        },
+        "sentiment": {
+          "type": "keyword"
+        },
+        "geolocation": {
+          "type": "geo_point"
+        },
+        "created_at": {
+          "type": "date",
+          "format": "EEE MMM dd HH:mm:ss +ZZZZ yyyy"
+        }
+      }
+    }
+  }
+}
